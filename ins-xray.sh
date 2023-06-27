@@ -135,7 +135,7 @@ wget -q -O /etc/xray/config.json "https://raw.githubusercontent.com/Azigaming404
 chmod +x /etc/xray/config.json
 sleep 1 
 rm -f /etc/nginx/conf.d/xray.conf
-wget -q -O /etc/nginx/conf.d/xray.conf "https://raw.githubusercontent.com/Azigaming404/cyber/main/xray.conf"
+wget -q -O /etc/nginx/conf.d/xray.conf "https://raw.githubusercontent.com/Azigaming404/cyber/main/configuration/xray.conf"
 chmod +x /etc/nginx/conf.d/xray.conf
 
 # Installing Xray Service
